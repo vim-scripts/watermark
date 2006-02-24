@@ -1,5 +1,5 @@
 " Vim color file
-" watermark v1.0
+" watermark v1.0b
 " http://www.vim.org/scripts/script.php?script_id=1454
 " 
 " Maintainer:	Shawn Axsom <axs221@gmail.com>
@@ -23,7 +23,7 @@ endif
 
 let g:colors_name="watermark"
 
-hi Normal       guifg=#7b9aba guibg=#1a202a   "1a1823
+hi Normal       guifg=#8b9aaa guibg=#1a202a   "1a1823
 hi NonText      guifg=#382920 guibg=bg
 
 hi Folded       guibg=#222038 guifg=#BBDDCC
@@ -51,11 +51,11 @@ endif
 hi Title	guifg=#6d806a gui=none
 hi Underlined   guifg=#5b759a gui=none
 
-hi Statement    guifg=#babfc0 gui=none
-hi Type		guifg=#7ac0c0 gui=none
+hi Statement    guifg=#cac0c0 gui=none
+hi Type		guifg=#6ac0ba gui=none
 hi Constant	guifg=#70a0de
-hi Number guifg=#4da5da
-hi PreProc      guifg=#d0a0b0
+hi Number       guifg=#1da5da
+hi PreProc      guifg=#c0a0b0
 hi Special	guifg=#50a0b0
 hi Ignore       guifg=grey40
 hi Todo		guifg=orangered guibg=yellow2
@@ -64,8 +64,8 @@ hi Function     guifg=#a090a0 guibg=bg gui=None
 hi Identifier   guifg=#a090b0   
 highlight Exception gui=none guifg=#aaa4a0 guibg=bg
 """""this section borrowed from OceanDeep/Midnight"""""
-highlight Conditional gui=None guifg=#b08ac0 guibg=bg
-highlight Repeat gui=None guifg=#b07ac0 guibg=bg
+highlight Conditional gui=None guifg=#c08ac0 guibg=bg
+highlight Repeat gui=None guifg=#c07ac0 guibg=bg
 "hi Label gui=None guifg=LightGreen guibg=bg
 highlight Operator gui=None guifg=#aa9a45 guibg=bg
 highlight Keyword gui=bold guifg=grey guibg=bg
